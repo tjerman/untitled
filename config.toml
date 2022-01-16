@@ -1,0 +1,28 @@
+baseURL = 'https://tjerman.github.io'
+languageCode = 'en-gb'
+title = 'untitled'
+theme = 'm10c'
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[params]
+  author = "Tomaž"
+  description = "My notes on random dev things I decide to do"
+  menu_item_separator = " - "
+  avatar = 'https://avatars.githubusercontent.com/u/12545711?v=4'
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/tjerman"
+
+  [params.style]
+   darkestColor = "#d35050"
+   darkColor = "#212121"
+   lightColor = "#d6d6d6"
+   lightestColor = "#d3d3d3"
+   primaryColor = "#ffffff"
