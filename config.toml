@@ -3,6 +3,9 @@ languageCode = 'en-gb'
 title = 'untitled'
 theme = 'm10c'
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [menu]
   [[menu.main]]
     identifier = "home"
